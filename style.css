@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+body{
+    font-family: "Inter";
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.212);
+    border-radius: 15px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    padding: 30px;
+    width: 360px;
+    color: rgba(255, 255, 255, 0.8);
+    height: max-content;
+}
+.pic{
+    display: block;
+    border-radius: 50%;
+    margin: 30px auto;
+    width: 100px;
+    transition: 200ms ease-in-out;
+}
+.pic:hover{
+    transform: scale(1.4);
+}
+.name{
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+}
+.location{
+    margin: 10px;
+    color: rgb(255, 255, 80);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.bio{
+    margin: 15px;
+    text-align: center;
+}
+.socialLinks{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+button{
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(80, 80, 80);
+    height: 45px;
+    width: 340px;
+    margin: 7px;
+    transition: 200ms;
+    font-size: 18px;
+    font-weight: 400;
+}
+button:hover{
+    background-color: rgb(161, 161, 161);
+}
+
+.attribution { font-size: 11px; text-align: center;
+position: fixed;
+bottom: 0;
+left: 0; }
+.attribution a { color: hsl(228, 45%, 44%); }
